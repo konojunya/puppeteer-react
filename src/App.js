@@ -18,8 +18,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p>count: {this.state.count}</p>
-        <button onClick={this.increment}>+</button>
+        <p className="count">count: {this.state.count}</p>
+        <button className="increment-add" onClick={this.increment}>+</button>
       </div>
     );
   }
